@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffa500"
+    android:orientation="vertical"
+    tools:context=".QuestionActivity">
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#03DAc6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/Question_Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="NumberOfQuestion"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        app:layout_constraintTop_toBottomOf="@+id/ll1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:background="#03DAc6"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/show_question_bg"
+            android:gravity="center"
+            android:text="Question"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll3"
+        app:layout_constraintTop_toBottomOf="@+id/ll2"
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+            />
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/new_opbt"
+    android:text="button1"
+    android:id="@+id/button1"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/new_opbt"
+            android:layout_marginTop="20sp"
+            android:text="button2"
+            android:id="@+id/button2"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="20sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/new_opbt"
+            android:text="button1"
+            android:id="@+id/button3"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="20sp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/new_opbt"
+            android:text="button4"
+            android:id="@+id/button4"
+            android:layout_marginBottom="5dp"/>
+
+        
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll4"
+        app:layout_constraintTop_toBottomOf="@+id/ll3"
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/next_button"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/new_nextbt"
+            android:text="Next"/>
+
+    </LinearLayout>
+
+<TextView
+    android:text="1/10"
+    android:id="@+id/countdown"
+    app:layout_constraintBottom_toTopOf="@id/ll3"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="16dp"
+    android:layout_width="100sp"
+    android:layout_height="100sp"
+    android:background="@drawable/timer_bg"
+    android:gravity="center"
+
+    />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

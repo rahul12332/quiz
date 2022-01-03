@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="100sp" android:height="20sp" />
+            <gradient android:angle="90" android:startColor="#f4f4f4" android:endColor="#b9b9b9" />
+            <corners android:radius="45sp"/>
+        </shape>
+    </item>
+
+    <!-- Inset -->
+    <item android:top="1dp" android:left="1dp" android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <gradient android:angle="90" android:startColor="#dcdcdc" android:endColor="#c9c9c9" />
+            <corners android:radius="45sp"/>
+        </shape>
+    </item>
+
+    <!-- Inside border/shadow -->
+    <item android:top="15dp" android:left="15dp" android:right="15dp" android:bottom="15dp">
+        <shape android:shape="rectangle">
+            <gradient android:angle="90" android:startColor="#8c8c8c" android:endColor="#cbcbcb" />
+            <corners android:radius="45sp"/>
+        </shape>
+    </item>
+
+    <!-- Main button -->
+    <item android:top="16dp" android:left="16dp" android:right="16dp" android:bottom="16dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="45sp"/>
+            <solid android:color="#dcdcdc" />
+        </shape>
+    </item>
+
+</selector>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="15dp" android:left="15dp" android:right="15dp" android:bottom="15dp">
+        <shape android:shape="oval">
+            <gradient android:angle="90" android:startColor="#00cc00" android:endColor="#ffcc66" />
+        </shape>
+    </item>
+
+    <!-- Main button -->
+    <item android:top="16dp" android:left="16dp" android:right="16dp" android:bottom="16dp">
+        <shape android:shape="oval">
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+
+</selector>
