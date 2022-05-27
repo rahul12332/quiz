@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/MyApplication53/app/src/main/res/drawable/catbg.xml" value="0.24583333333333332" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication53/app/src/main/res/drawable/history_btn.xml" value="0.24583333333333332" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication53/app/src/main/res/drawable/new_cat_item_bg.xml" value="0.25625" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_category.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_new_set.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_question.xml" value="0.2296875" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_score.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/cat_item_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/set_item_layout.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/drawable/bgfor_setlayout.xml" value="0.25092592592592594" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/drawable/bookmarkbt.xml" value="0.25625" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/drawable/button_new_start.xml" value="0.26614583333333336" />
@@ -27,18 +37,20 @@
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/drawable/sets_bg.xml" value="0.26615384615384613" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/drawable/show_question_bg.xml" value="0.25277777777777777" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/drawable/startbt.xml" value="0.25625" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/drawable/study_button.xml" value="0.24537037037037038" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/drawable/timer_bg.xml" value="0.25277777777777777" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_category.xml" value="0.17889492753623187" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_flash.xml" value="0.2078804347826087" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_main2.xml" value="0.20878623188405798" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_main3.xml" value="0.20516304347826086" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_new_set.xml" value="0.192481884057971" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_question.xml" value="0.152" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_new_set.xml" value="0.4" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_question.xml" value="0.2" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_question2.xml" value="0.2" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_score.xml" value="0.1983695652173913" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_sets.xml" value="0.1693840579710145" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_sets2.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/activity_study.xml" value="0.1816123188405797" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/cat_item_layout.xml" value="0.16" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/grid_item.xml" value="0.21240942028985507" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/MyApplication53/app/src/main/res/layout/score_bottom_sheet.xml" value="0.2115036231884058" />

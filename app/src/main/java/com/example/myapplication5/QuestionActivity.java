@@ -88,7 +88,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
 
                     for (DataSnapshot s : snapshot.getChildren()) {
                         String QuNu = s.getKey();
-                        String Qu = String.valueOf(s.child("question").getValue().toString());
+                        String Qu = s.child("question").getValue().toString();
                         String Ans = s.child("answer").getValue().toString();
                         String O1 = s.child("option1").getValue().toString();
                         String O2 = s.child("option2").getValue().toString();
@@ -209,7 +209,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                 }else{
                     button2.setActivated(false);
                     switch(answer){
-                        case 2:
+                        case 1:
                             button1.setActivated(true);
                             button1.setBackgroundDrawable(getDrawable(R.drawable.result_button_color));
                             break;
@@ -236,11 +236,11 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                 }else{
                     button3.setActivated(false);
                     switch(answer){
-                        case 2:
+                        case 1:
                             button1.setActivated(true);
                             button1.setBackgroundDrawable(getDrawable(R.drawable.result_button_color));
                             break;
-                        case 3:
+                        case 2:
                             button2.setActivated(true);
                             button2.setBackgroundDrawable(getDrawable(R.drawable.result_button_color));
                             break;
@@ -261,15 +261,15 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                 }else{
                     button4.setActivated(false);
                     switch(answer){
-                        case 2:
+                        case 1:
                             button1.setActivated(true);
                             button1.setBackgroundDrawable(getDrawable(R.drawable.result_button_color));
                             break;
-                        case 3:
+                        case 2:
                             button2.setActivated(true);
                             button2.setBackgroundDrawable(getDrawable(R.drawable.result_button_color));
                             break;
-                        case 4:
+                        case 3:
                             button3.setActivated(true);
                             button3.setBackgroundDrawable(getDrawable(R.drawable.result_button_color));
                             break;
